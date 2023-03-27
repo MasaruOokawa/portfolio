@@ -147,13 +147,23 @@ a {
 	overflow: hidden;
 }
 
-.top-ttl {
+.top-ttl{
 	color: $red-darker;
-}
+    margin-bottom: 15px;
 
+}
+.sub-ttl{
+	color: $red-darker;
+	font-size: larger;
+    margin-bottom: 50px;
+}
 .sel {
 	border: 2px solid $red;
 	padding: 8px 14px;
+	margin: 9px 10px;
+}
+.rslt{
+	font-size: larger;
 }
 
 .btn {

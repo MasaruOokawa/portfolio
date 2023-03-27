@@ -21,7 +21,8 @@ function mw_calc() {
   // ワット秒を、電子レンジの持つワット数で割り、秒を求める(小数点以下切り捨て)
   isec2 = ws / w2;
 
-  document.getElementById("result").innerHTML = "<b>調理時間：" + Math.floor(isec2) + "秒 (" + Math.floor(isec2 / 60) + "分" + Math.floor(isec2 % 60) + "秒)</b>";
+  document.getElementById("result").innerHTML = "<p class='rslt'>温め時間：" //+ Math.floor(isec2) + "秒"//
+  + Math.floor(isec2 / 60) + "分" + Math.floor(isec2 % 60) + "秒</p>";
 
   
 }

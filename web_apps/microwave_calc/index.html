@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>温めヘルパー | レンジ時間計算機</title>
+  <title>レンジタイムアシスト | 温め時間を計算して効率よく</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,8 +30,9 @@
 
 <body>
   <div class="container">
-    <h1 class="top-ttl">温めヘルパー | レンジ時間計算機</h1>
-  商品記載のワット数と調理時間：<br>
+    <h1 class="top-ttl">レンジタイムアシスト</h1>
+    <h2 class="sub-ttl">〜 温め時間を計算して効率よく 〜</h2>
+  商品記載のワット数と調理時間<br>
   <!-- <input > -->
   <!-- <select type="text" name="b_w1" id="b_w1" size="5" maxlength="4" value="500">
     <option value="500">500</option>
@@ -45,7 +46,6 @@
       <option>700</option>
       <option>800</option>
       <option>1000</option>
-      <option>1500</option>
     </select>
     W</p>
     <p>
@@ -82,7 +82,7 @@
     
   </p>
   <p>
-    調理したい電子レンジのワット数<br>
+    調理したい電子レンジのワット数と個数<br>
     <!-- <input type="text" name="b_w2" id="b_w2" size="5" maxlength="4" value="800">W -->
     <select class="sel" type="text" name="b_w2" id="b_w2" size="1" maxlength="4" value="">
       <option>500</option>
@@ -102,7 +102,9 @@
     </select>個
     <br><br>
     <!-- ここに<label>要素を追加したい -->
-    <button id="calc-btn" class="btn  red"><input type="button" value="計算" id="calc" onclick="mw_calc();"></button><br><br>
+    <button id="calc-btn" class="btn  red" onclick="mw_calc();">
+      <input type="button" value="計算" id="calc">
+    </button><br><br>
 
 
   <!-- 

@@ -56,11 +56,23 @@ a {
 
 .top-ttl {
   color: #CC6539;
+  margin-bottom: 15px;
+}
+
+.sub-ttl {
+  color: #CC6539;
+  font-size: larger;
+  margin-bottom: 50px;
 }
 
 .sel {
   border: 2px solid #FF7E47;
   padding: 8px 14px;
+  margin: 9px 10px;
+}
+
+.rslt {
+  font-size: larger;
 }
 
 .btn {
