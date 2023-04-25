@@ -1,3 +1,5 @@
+
+
 /*!
 * Start Bootstrap - Freelancer v7.0.6 (https://startbootstrap.com/theme/freelancer)
 * Copyright 2013-2022 Start Bootstrap
@@ -50,5 +52,4 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
 });
