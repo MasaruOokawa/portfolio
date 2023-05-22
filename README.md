@@ -1,7 +1,7 @@
 # portfolio
 **使用言語**
 
-HTML／CSS ／
+HTML / CSS / JavaScript
 
 **概要**
 
